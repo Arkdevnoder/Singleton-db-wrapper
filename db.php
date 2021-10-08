@@ -19,6 +19,7 @@ final class hpdo {
 	protected static $_instance;
 	protected static $_handler;
 	protected static $_state;
+	protected static $_message;
 
 	private function __construct() {
 		if(self::$DB_HOST == "" || self::$DB_NAME == "" || self::$DB_USER == ""){
